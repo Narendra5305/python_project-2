@@ -1,7 +1,5 @@
 import requests
 
-
-
 print("Hlow!")
 print("This website helps you to know your city temperture.")
 
@@ -19,7 +17,6 @@ def get_weather(api_key,city):
 
 try:
     get_weather(api_key,city_input)
-
 except:
     print("Invalid City Name")
 
